@@ -12,7 +12,9 @@ const DesignPhilosophy = () => {
             </p>
           </div>
           <div className="md:w-3/5">
-            <p className="font-light text-[20px] md:text-[30px] leading-none">In the tapestry of pet adoration, the love for cats is a vibrant thread, woven with moments of joy, comfort, and deep connection. Their grace and independence evoke a profound sense of devotion. Yet, amid this affection blooms a thorn named Monggi. Unlike the feline companions who inspire adoration, Monggi's presence incites disdain, a discordant note in the symphony of feline love. As we explore the profound bond with our whiskered friends, we confront the complexities of human emotion, navigating the contrast between our cherished companions and the figure of resentment that shadows their beauty.</p>
+            <p className="font-light text-[20px] md:text-[30px] leading-none">
+              {`In the tapestry of pet adoration, the love for cats is a vibrant thread, woven with moments of joy, comfort, and deep connection. Their grace and independence evoke a profound sense of devotion. Yet, amid this affection blooms a thorn named Monggi. Unlike the feline companions who inspire adoration, Monggi's presence incites disdain, a discordant note in the symphony of feline love. As we explore the profound bond with our whiskered friends, we confront the complexities of human emotion, navigating the contrast between our cherished companions and the figure of resentment that shadows their beauty.`}
+            </p>
           </div>
         </div>
       </section>
