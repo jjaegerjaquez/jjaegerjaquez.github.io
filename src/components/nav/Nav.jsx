@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import clsx from 'clsx';
 
-const INITIAL_CLASS = 'flex justify-between px-[15px] md:px-[35px] py-3 transition-colors delay-75 ease-out font-light text-lg sticky top-0';
+const INITIAL_CLASS = 'flex justify-between px-[15px] md:px-[35px] py-3 transition-colors delay-75 ease-out font-light text-lg sticky top-0 z-50';
 
 const Nav = () => {
   const [mergedClass, setMergedClass] = useState(INITIAL_CLASS);
