@@ -1,7 +1,5 @@
-import { Inconsolata } from "next/font/google";
-import "./globals.css";
-
-const inconsolata = Inconsolata({ subsets: ["latin"] });
+import './globals.css';
+import { inconsolata } from './fonts';
 
 export const metadata = {
   title: "J Sanchez",
