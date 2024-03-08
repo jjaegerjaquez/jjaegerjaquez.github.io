@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth snap-y snap-mandatory">
       <body className={inconsolata.className}>{children}</body>
     </html>
   );

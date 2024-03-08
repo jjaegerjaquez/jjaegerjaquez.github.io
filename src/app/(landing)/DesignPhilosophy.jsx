@@ -3,7 +3,7 @@ import SectionWrapper from './SectionWrapper/SectionWrapper';
 
 const DesignPhilosophy = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="design-section" className="bg-green-200">
       <div className="flex flex-col md:flex-row w-full">
         <div className="md:w-2/5">
           <p className={`text-[30px] md:text-[90px] font-semibold leading-tight ${staatliches.className}`}>

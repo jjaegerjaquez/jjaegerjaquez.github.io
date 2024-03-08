@@ -5,7 +5,7 @@ import TechStack from './(landing)/TechStack';
 
 export default function Home() {
   return (
-    <main className="snap-y">
+    <main>
       <Nav />
       <IntroductionSection />
       <DesignPhilosophy />
