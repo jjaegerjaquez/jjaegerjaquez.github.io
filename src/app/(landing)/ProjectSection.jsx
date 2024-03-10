@@ -13,7 +13,7 @@ const ProjectSection = () => {
       <div className="w-full lg:w-3/5">
         <div className="grid md:grid-cols-2 gap-4">
           <ProjectWrapper 
-            imgSrc = '/projects/digitaldentist.png'
+            imgSrc = '/projects/digitaldentist.PNG'
             title = 'Digital Dentist'
             description = 'An online dentist management information system.'
           />
