@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'overlay': 'rgba(0, 0, 0, 0.5)'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -14,7 +17,17 @@ module.exports = {
       },
       screens: {
         '4xl': '1960px',
+        '12xl': '2560px',
       },
+      animation: {
+        'gradient': 'gradient 6s linear infinite',
+      },
+      keyframes: {
+        'gradient': {
+          '0%': { backgroundPosition: '0% 50%' },
+          '100%': { backgroundPosition: '100% 50% ' },
+        }
+      },   
     },
   },
   plugins: [],

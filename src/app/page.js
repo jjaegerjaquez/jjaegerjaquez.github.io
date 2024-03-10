@@ -1,7 +1,9 @@
-import Nav from '@/components/nav/Nav';
+import Nav from '@/components/Nav/Nav';
 import IntroductionSection from './(landing)/IntroductionSection';
 import DesignPhilosophy from './(landing)/DesignPhilosophy';
 import TechStack from './(landing)/TechStack';
+import ProjectSection from './(landing)/ProjectSection';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <IntroductionSection />
       <DesignPhilosophy />
       <TechStack />
+      <ProjectSection />
+      <Footer />
     </main>
   );
 }
