@@ -1,10 +1,10 @@
 import CatWrapper from "@/components/CatWrapper";
-// import Nav from "@/components/Nav/Nav";
+import Nav from "@/components/nav/Nav";
 
 const page = () => {
   return (
     <>
-      {/* <Nav /> */}
+      <Nav />
       <div className="px-[15px] lg:px-[200px] py-10 lg:py-[100px]">
         <div className="flex flex-col lg:flex-row">
           <div className="w-full lg:w-3/5 text-justify text-xl mb-10">
