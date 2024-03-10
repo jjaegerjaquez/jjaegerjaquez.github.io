@@ -13,22 +13,22 @@ const ProjectSection = () => {
       <div className="w-full lg:w-3/5">
         <div className="grid md:grid-cols-2 gap-4">
           <ProjectWrapper 
-            imgSrc = '/projects/digitaldentist.PNG'
+            imgSrc = '/projects/digitaldentist.png'
             title = 'Digital Dentist'
             description = 'An online dentist management information system.'
           />
           <ProjectWrapper 
-            imgSrc = '/projects/checkout.PNG'
+            imgSrc = '/projects/checkout.png'
             title = 'Checkout'
             description = 'A third party checkout service.'
           />
           <ProjectWrapper 
-            imgSrc = '/projects/op.PNG'
+            imgSrc = '/projects/op.png'
             title = 'Ole Platform'
             description = 'A wallet payment system.'
           />
           <ProjectWrapper 
-            imgSrc = '/projects/bicm.PNG'
+            imgSrc = '/projects/bicm.png'
             title = 'BICM'
             description = 'A customs brokerage, domestic and international freight forwarding company.'
           />
