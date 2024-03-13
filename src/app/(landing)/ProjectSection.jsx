@@ -14,26 +14,31 @@ const ProjectSection = () => {
         <div className="grid md:grid-cols-2 gap-4">
           <ProjectWrapper 
             imgSrc = '/projects/digitaldentist.PNG'
+            link="/project/digital-dentist"
             title = 'Digital Dentist'
             description = 'An online dentist management information system.'
           />
           <ProjectWrapper 
             imgSrc = '/projects/checkout.png'
+            link="/project/checkout"
             title = 'Checkout'
             description = 'A third party checkout service.'
           />
           <ProjectWrapper 
             imgSrc = '/projects/op.png'
+            link="/project/ole-platform"
             title = 'Ole Platform'
             description = 'A wallet payment system.'
           />
           <ProjectWrapper 
             imgSrc = '/projects/bicm.png'
+            link="/project/bicm"
             title = 'BICM'
             description = 'A customs brokerage, domestic and international freight forwarding company.'
           />
           <ProjectWrapper 
             imgSrc = '/projects/trivi.png'
+            link="/project/trivi"
             title = 'Trivi'
             description = 'A play to earn system.'
           />

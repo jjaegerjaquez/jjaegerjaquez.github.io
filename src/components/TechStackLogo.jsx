@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const TechStackLogo = ({ imgName = '' }) => {
   return (
-    <div className={`bg-[url('/tech/${imgName}')] bg-center bg-no-repeat bg-contain bg-white h-[100px]`}></div>
+    <div className={`bg-[url('/tech/js.jpg')] bg-center bg-no-repeat bg-cover bg-white h-[150px]`}></div>
   );
 }
  
