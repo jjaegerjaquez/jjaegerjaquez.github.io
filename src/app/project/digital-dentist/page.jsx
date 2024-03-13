@@ -1,4 +1,4 @@
-import ProjectTitle from '@/components/Project/ProjectTitle';
+import ProjectTitle from '@/components/project/ProjectTitle';
 import ProjectBanner from '@/components/project/ProjectBanner';
 import ProjectTechStack from '@/components/project/ProjectTechStack';
 
