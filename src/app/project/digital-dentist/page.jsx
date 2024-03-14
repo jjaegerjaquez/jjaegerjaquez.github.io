@@ -1,14 +1,28 @@
+import HTML from '@/components/project/tech-stack/HTML';
+import JS from '@/components/project/tech-stack/JS';
+import CSS from '@/components/project/tech-stack/CSS';
+import BS from '@/components/project/tech-stack/BS';
+import PHP from '@/components/project/tech-stack/PHP';
+import Jquery from '@/components/project/tech-stack/Jquery';
 import ProjectTitle from '@/components/project/ProjectTitle';
 import ProjectBanner from '@/components/project/ProjectBanner';
 import ProjectTechStack from '@/components/project/ProjectTechStack';
+import ProjectDescriptionWrapper from '@/components/project/ProjectDescriptionWrapper';
 
 const page = () => {
   return (
     <>
       <ProjectTitle>Digital Dentist</ProjectTitle>
       <ProjectBanner imgSrc="/projects/digitaldentist.PNG" />
-      <ProjectTechStack />
-      <div className="flex flex-col gap-y-3 mt-10 text-lg text-justify">
+      <ProjectTechStack>
+        <HTML />
+        <JS />
+        <CSS />
+        <BS>Bootstrap 4</BS>
+        <PHP />
+        <Jquery />
+      </ProjectTechStack>
+      <ProjectDescriptionWrapper>
         <p>Digital Dentist is an online management information system for dental clinics that can be used for managing patient records, transactions and other dental information.</p>
         <p className="font-semibold">Key Features:</p>
         <ul className="list-decimal list-inside space-y-5">
@@ -44,7 +58,7 @@ const page = () => {
             <img src="/projects/dd-doctor-4.jpg" alt="" />
           </li>
         </ul>
-      </div>
+      </ProjectDescriptionWrapper>
     </>
   );
 }

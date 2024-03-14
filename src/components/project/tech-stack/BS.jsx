@@ -1,8 +1,8 @@
 import Wrapper from "./Wrapper";
 
-const BS = () => {
+const BS = ({ children }) => {
   return (
-    <Wrapper imgSrc="/tech/bs.jpg" label="Bootstrap 4" />
+    <Wrapper imgSrc="/tech/bs.jpg" label={children} />
   );
 }
  

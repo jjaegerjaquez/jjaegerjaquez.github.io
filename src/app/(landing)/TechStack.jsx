@@ -23,6 +23,9 @@ const TechStack = () => {
             <div className={`bg-[url('/tech/docker.jpg')] bg-center bg-no-repeat bg-cover bg-white h-[150px]`}></div>
             <div className={`bg-[url('/tech/mysql.jpg')] bg-center bg-no-repeat bg-cover bg-white h-[150px]`}></div>
             <div className={`bg-[url('/tech/expressjs.jpg')] bg-center bg-no-repeat bg-cover bg-white h-[150px]`}></div>
+            <div className={`bg-[url('/tech/php.jpg')] bg-center bg-no-repeat bg-cover bg-white h-[150px]`}></div>
+            <div className={`bg-[url('/tech/redux.jpg')] bg-center bg-no-repeat bg-cover bg-white h-[150px]`}></div>
+            <div className={`bg-[url('/tech/r-toolkit.jpg')] bg-center bg-no-repeat bg-cover bg-white h-[150px]`}></div>
           </div>
         </div>
       </SectionWrapper>
