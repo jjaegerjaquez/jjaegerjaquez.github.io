@@ -2,7 +2,7 @@ import FeatherIcon from "feather-icons-react";
 
 const Footer = () => {
   return (
-    <section className="px-[15px] md:px-[35px] 12xl:px-[60px] md:mt-[30px] md:mb-0 snap-start max-w-sm:scroll-mt-14">
+    <section className="md:mt-[30px] md:mb-0 snap-start max-w-sm:scroll-mt-14">
       <footer className="flex flex-col md:flex-row items-center justify-center md:justify-between text-lg 12xl:text-4xl">
         <div>
           <p>

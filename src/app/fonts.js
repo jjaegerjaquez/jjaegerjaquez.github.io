@@ -1,4 +1,4 @@
-import { Inconsolata, Staatliches } from 'next/font/google';
+import { Inconsolata, Staatliches, Inter } from 'next/font/google';
 
 export const inconsolata = Inconsolata({ 
   subsets: ["latin"],
@@ -6,3 +6,5 @@ export const inconsolata = Inconsolata({
 });
 
 export const staatliches = Staatliches({ subsets: ["latin"], weight: ['400'] });
+
+export const inter = Inter({ subsets: ["latin"], weight: ['400', '500', '600', '700', '800', '900'] });

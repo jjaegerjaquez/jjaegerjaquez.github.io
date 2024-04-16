@@ -7,9 +7,9 @@ const SectionWrapper = ({ className = '', id = '', customHeightClass = 'h-screen
     <>
       <section 
         id={id}
-        className={clsx('px-[15px] md:px-[35px] 12xl:px-[60px] snap-start scroll-mt-14')} 
+        className={clsx('snap-start scroll-mt-14')} 
       >
-        <div className={clsx('flex flex-col lg:flex-row w-full items-center justify-center', customHeightClass)}>
+        <div className={clsx('flex flex-col lg:flex-row gap-x-4 w-full items-center justify-center', customHeightClass)}>
           {children}
         </div>
       </section>

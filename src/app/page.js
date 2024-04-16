@@ -9,11 +9,13 @@ export default function Home() {
   return (
     <main>
       <Nav />
-      <IntroductionSection />
-      <DesignPhilosophy />
-      <TechStack />
-      <ProjectSection />
-      <Footer />
+      <div className="px-[15px] md:px-[35px] 12xl:px-[60px]">
+        <IntroductionSection />
+        <DesignPhilosophy />
+        <TechStack />
+        <ProjectSection />
+        <Footer />
+      </div>
     </main>
   );
 }
